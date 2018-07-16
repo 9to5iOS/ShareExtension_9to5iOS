@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+{
+    NSMutableArray *arr_shareLinks;
+    NSUserDefaults *sharedUserDefaults;
+}
 @end
+
+
+
 
